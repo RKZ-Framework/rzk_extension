@@ -16,6 +16,7 @@ AddEventHandler("KRZ-Base:ServerStart", function()
     end)
 end)
 
+
 RegisterNetEvent('RKZ-Base:rkz:getObject')
 AddEventHandler('RKZ-Base:rkz:getObject', function()
     callback(RKZ)
